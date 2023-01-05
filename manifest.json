@@ -1,0 +1,21 @@
+{
+  "name": "Flatex Extension",
+  "description": "Build an Extension!",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://konto.flatex.at/banking-flatex.at/paperInfoPopupFormAction.do", "https://konto.flatex.at/banking-flatex.at/watchListListFormAction.do"],
+      "js": ["background.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "32": "/images/vector.png"
+    }
+
+  },
+  "permissions": ["webNavigation", "storage", "tabs", "activeTab"]
+}
