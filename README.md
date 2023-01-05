@@ -11,6 +11,6 @@ https://github.com/Persie0/flatex-etf-info-extension/raw/master/Flatex%20ETF%20I
 7. Fertig!
 
 # Bilder
-![Screenshot](https://raw.githubusercontent.com/Persie0/flatex-etf-info-extension/blob/master/img/2023-01-05_13-37.png)
-![Screenshot](https://raw.githubusercontent.com/Persie0/flatex-etf-info-extension/blob/master/img/2023-01-05_13-39.png)
-![Screenshot](https://raw.githubusercontent.com/Persie0/flatex-etf-info-extension/blob/master/img/2023-01-05_13-40.png)
+![Screenshot](https://github.com/Persie0/flatex-etf-info-extension/raw/master/img/2023-01-05_13-37.png)
+![Screenshot](https://github.com/Persie0/flatex-etf-info-extension/raw/master/img/2023-01-05_13-39.png)
+![Screenshot](https://github.com/Persie0/flatex-etf-info-extension/raw/master/img/2023-01-05_13-40.png)
