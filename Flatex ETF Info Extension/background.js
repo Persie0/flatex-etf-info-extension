@@ -8951,6 +8951,37 @@ setInterval(function () {
                         button.setAttribute("onclick", "window.open('" + a[j].link + "')");
                         lin[i].parentElement.parentElement.appendChild(button);
 
+                        //add button that opens https://de.extraetf.com/etf-profile/ + a[j].number with e icon
+                        var button2 = document.createElement("button");
+                        button2.innerHTML = "e";
+                        //beautify button
+                        button2.style.backgroundColor = "transparent";
+                        button2.style.border = "none";
+                        button2.style.color = "blue";
+                        button2.style.textDecoration = "underline";
+                        button2.style.cursor = "pointer";
+                        button2.style.fontSize = "20px";
+                        button2.style.fontWeight = "bold";
+                        button2.style.marginLeft = "5px";
+                        button2.style.marginTop = "5px";
+                        button2.style.marginBottom = "5px";
+                        button2.style.marginRight = "5px";
+                        button2.style.padding = "0px";
+                        button2.style.outline = "none";
+                        button2.style.display = "inline-block";
+                        button2.style.verticalAlign = "middle";
+                        button2.style.textAlign = "center";
+                        button2.style.lineHeight = "1";
+                        button2.style.borderRadius = "50%";
+                        button2.style.width = "20px";
+                        button2.style.height = "20px";
+                        button2.style.paddingTop = "0px";
+                        button2.style.paddingBottom = "0px";
+                        
+                        button2.setAttribute("onclick", "window.open('https://de.extraetf.com/etf-profile/" + a[j].number + "')");
+                        lin[i].parentElement.parentElement.appendChild(button2);
+                        
+
                     }
                 }
             }

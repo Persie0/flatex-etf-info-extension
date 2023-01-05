@@ -3,6 +3,7 @@ Diese Chrome Extension zeigt dir die wichtigsten Informationen zu ETFs direkt au
 - TER (Total Expense Ratio)
 - Ob ausschüttend oder thesaurierend
 - Link zur ETF Seite auf Finanzfluss.de
+- Link zur ETF Seite auf extraetf.com
 
 # Chrome extension download link
 https://github.com/Persie0/flatex-etf-info-extension/raw/master/Flatex%20ETF%20Info%20Extension.zip
