@@ -1,3 +1,9 @@
+# Flatex ETF Info Extension
+Diese Chrome Extension zeigt dir die wichtigsten Informationen zu ETFs direkt auf der Flatex Webseite an.
+- TER (Total Expense Ratio)
+- Ob ausschüttend oder thesaurierend
+- Link zur ETF Seite auf Finanzfluss.de
+
 # Chrome extension download link
 https://github.com/Persie0/flatex-etf-info-extension/raw/master/Flatex%20ETF%20Info%20Extension.zip
 
