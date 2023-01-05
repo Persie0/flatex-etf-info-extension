@@ -8923,7 +8923,7 @@ setInterval(function () {
                         lin[i].appendChild(isDistributing);
                         //add button as info icon to finanzfluss.de
                         var button = document.createElement("button");
-                        button.innerHTML = "i";
+                        button.innerHTML = "f";
                         //beautify button
                         button.style.backgroundColor = "transparent";
                         button.style.border = "none";
@@ -8980,7 +8980,7 @@ setInterval(function () {
                         
                         button2.setAttribute("onclick", "window.open('https://de.extraetf.com/etf-profile/" + a[j].number + "')");
                         lin[i].parentElement.parentElement.appendChild(button2);
-                        
+
 
                     }
                 }
