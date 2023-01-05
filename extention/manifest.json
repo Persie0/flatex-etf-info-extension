@@ -1,5 +1,7 @@
 {
   "name": "Flatex ETF Info",
+  "author": "Persie0",
+  "homepage_url": "https://github.com/Persie0/flatex-etf-info",
   "description": "Adds some information to the ETFs on the flatex website.",
   "version": "0.1.0",
   "manifest_version": 3,
