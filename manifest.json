@@ -1,21 +1,22 @@
 {
-  "name": "Flatex Extension",
-  "description": "Build an Extension!",
+  "name": "Flatex ETF Info",
+  "description": "Adds some information to the ETFs on the flatex website.",
   "version": "0.1.0",
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": ["https://konto.flatex.at/banking-flatex.at/paperInfoPopupFormAction.do", "https://konto.flatex.at/banking-flatex.at/watchListListFormAction.do"],
+      "matches": ["https://konto.flatex.at/banking-flatex.at/*"],
       "js": ["background.js"],
-      "run_at": "document_end",
-      "all_frames": true
+      "run_at": "document_end"
     }
   ],
   "action": {
     "default_icon": {
-      "32": "/images/vector.png"
+      "32": "/images/vector.png",
+      "64": "/images/vector.png",
+      "128": "/images/vector.png"
     }
 
   },
-  "permissions": ["webNavigation", "storage", "tabs", "activeTab"]
+  "permissions": ["activeTab"]
 }
